@@ -22,3 +22,10 @@ Then, with your Google Chrome browser closed, simply run `python astroGo_browser
 `astroGo_browser.py` will open up Astro Go in Google Chrome and begin pre-loading all the channels
 
 Once completed, the console will output `completed pre-loading all channels`, after which you can enter a channel number to begin watching
+
+
+### Referemces
+<br>
+- https://www.selenium.dev/documentation/webdriver/getting_started/open_browser/
+- https://stackoverflow.com/questions/41744368/scrolling-to-element-using-webdriver
+- https://www.geeksforgeeks.org/python-output-formatting/
