@@ -1,8 +1,12 @@
 from selenium import webdriver
 import time
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("user-data-dir=C:/Users/kishe/AppData/Local/Google/Chrome/User Data") 
+chrome_options.add_argument("user-data-dir=" + os.getenv('DIRECTORY'))
 driver = webdriver.Chrome(options=chrome_options)
 actions = webdriver.ActionChains(driver)
 

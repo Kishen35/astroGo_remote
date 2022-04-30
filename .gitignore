@@ -1,4 +1,4 @@
-credentials.env
+.env
 chromedriver_win32.zip
 chromedriver.exe
 tets.py
